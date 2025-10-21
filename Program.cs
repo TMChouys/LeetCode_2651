@@ -5,7 +5,6 @@
         // 主程式進入點
         static void Main(string[] args)
         {
-
             //C#的輸入與輸出
             //知識點：Ch2 建立C#應用程式，主控台應用程式的輸出與輸入、程式註解、程式碼縮排
             //知識點：Ch3 變數、資料型別與運算子，變數的宣告、變數的初值、指定敘述、整數資料型別、字串資料的型別轉換
@@ -14,7 +13,6 @@
             Console.WriteLine("Enter ArrivalTime:"); //提示使用者輸入ArrivalTime
             string str1 = Console.ReadLine(); //讀取使用者輸入的字串並存放在str1變數的初值
             int a = Convert.ToInt32(str1); //將str1字串轉換為整數並存放在a變數的初值
-
 
             Console.WriteLine("Enter DelayedTime:");  //提示使用者輸入DelayedTime
             string str2 = Console.ReadLine(); //讀取使用者輸入的字串並存放在str2變數的初值
@@ -62,15 +60,13 @@
             限制條件：
             1 <= arrivaltime < 24
             1 <= delayedTime <= 24
-
             */
 
             //知識點：Ch7 函數，建立C#函數、函數的參數列、函數的傳回值、區域函數
             //知識點：Ch3 變數、資料型別與運算子，變數的宣告、變數的初值、指定敘述、整數資料型別、算術運算⼦
 
             //解題思路
-            //區域函數  1.傳回值是整數資料型別 int  2. 形式變數是兩個整數資料型別 int arrivalTime, int delayedTime
-            //1. 回傳值 int 
+            //區域函數  1.傳回值是整數資料型別 int  2.形式變數是兩個整數資料型別 int arrivalTime, int delayedTime
             int FindDelayedArrivalTime(int arrivalTime, int delayedTime)
             {
                 //1.輸入
