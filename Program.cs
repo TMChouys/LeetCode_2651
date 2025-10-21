@@ -22,7 +22,7 @@
 
             Console.WriteLine("The Time:"); //提示使用者輸出結果
             Console.WriteLine(FindDelayedArrivalTime(a, b)); //呼叫擁有參數和傳回值FindDelayedArrivalTime函數並將a與b變數的值傳給形式參數arrivalTime與delayedTime，將傳回值輸出到主控台
-
+            Console.ReadLine(); //等待使用者按下Enter鍵後結束程式
 
             /*
             LeetCode 2651. Calculate Delayed Arrival Time
